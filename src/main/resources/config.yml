@@ -1,0 +1,9 @@
+#Welcome to the config!
+#Please select the armor, weapon, and nameplate of the mob!
+helmet: JACK_O_LANTERN
+chestplate: LEATHER_CHESTPLATE
+leggings: LEATHER_LEGGINGS
+boots: LEATHER_BOOTS
+weapon: STONE_SWORD
+#Use %k% for the killer and %d% for the player who died! DO NOT remove the ""!
+nameplate: "&c&lMent"
