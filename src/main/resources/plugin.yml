@@ -1,5 +1,5 @@
 name: Ments
 version: @version@-@apiversion@
-authors: [ DartPower, UnknownContributor ]
+author: DartPower
 website: https://github.com/dptmc/Ments
 main: io.dpteam.Ments.Main
