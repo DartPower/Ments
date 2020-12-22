@@ -26,11 +26,11 @@ public class Main extends JavaPlugin implements Listener {
 		this.getConfig().options().copyDefaults(true);
 		this.saveConfig();
 		this.getServer().getPluginManager().registerEvents(this, this);
-		System.out.println("Ments Enabled");
+		Bukkit.getServer().getLogger().info("[DPT.MC] Ments Enabled");
 	}
 
 	public void onDisable() {
-		System.out.println("Ments Disabled");
+		Bukkit.getServer().getLogger().info("[DPT.MC] Ments Disabled");
 	}
 
 	@EventHandler
