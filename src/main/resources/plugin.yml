@@ -3,3 +3,4 @@ version: @version@-@apiversion@
 author: DartPower
 website: https://github.com/dptmc/Ments
 main: io.dpteam.Ments.Main
+api-version: 1.13
