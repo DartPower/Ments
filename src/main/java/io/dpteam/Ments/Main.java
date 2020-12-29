@@ -26,11 +26,12 @@ public class Main extends JavaPlugin implements Listener {
 		this.getConfig().options().copyDefaults(true);
 		this.saveConfig();
 		this.getServer().getPluginManager().registerEvents(this, this);
-		this.getServer().getLogger().info("[DPT.MC] Ments Enabled");
+		this.getServer().getLogger().info("[Ments] Plugin loaded and enabled");
 	}
 
+	@Override
 	public void onDisable() {
-		this.getServer().getLogger().info("[DPT.MC] Ments Disabled");
+		this.getServer().getLogger().info("[Ments] Plugin unloaded and disabled");
 	}
 
 	@EventHandler
